@@ -1,0 +1,51 @@
+
+
+# Organization
+## Dekanate
+- B - Studiendekanat Bau- und Umweltingenieurwesen
+- E - Elektrotechnik, Informatik und Mathematik
+	- Elektrotechnik
+		- E-3 Hochfrequenztechnik
+		- E-4 Kommunikationsnetze
+		- E-6 Elektrische Energietechnik
+		- E-7 Mikrosystemtechnik
+		- E-8 Nachrichtentechnik
+		- E-9 Integrierte Schaltungen
+		- E-12 Optische und Elektronische Materialien
+		- E-14 Regelungstechnik
+		- E-18 Theoretische Elektrotechnik
+	- Informatik:
+		- Theoretische Informatik:
+			- E-11 Algorithms and Complexity
+			- E-25 Quantum Inspired and Quantum Optimization
+			- E-EXK6 Theoretische Informatik
+		- Software- und Systemtechnik
+			- E-1 Medizintechnische und Intelligente Systeme
+			- E-5 Biomedizinische Bildgebung
+			- E-16 Software Systems
+			- E-17 Telematik
+			- E-19 Data Engineering
+			- E-21 Data Science Foundations
+			- E-22 Software Security
+			- E-EXK7 Human-Centric Machine Learning
+		- Technische Informatik
+			- E-4 Kommunikationsnetze
+			- E-13 Computer Engineering
+			- E-14 Eingebettete Systeme
+			- E-15 Secure Physical Systems
+			- E-24 Autonomous Cyber-Physical Systems
+			- E-EXK3 Smart Sensors
+			- E-EXK4 Operating Systems
+			- E-EXK5 Massively Parallel Systems
+	- Mathematik
+		- E-10 Angewandte Analysis
+		- E-10 Computational Mathematics
+		- E-10 Diskrete Mathematik
+		- E-10 Numerische Mathematik
+		- E-10 Stochastik
+	- Ethik in der Technik
+		- E-EXK8 Ethics in Technology
+- W - Management-Wissenschaften und Technologie
+- M - Maschinenbau
+- T - Technologie und Unnovation in der Bildung
+- V - Verfahrenstechnik

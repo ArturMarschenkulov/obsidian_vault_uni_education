@@ -1,6 +1,6 @@
 A Bernoulli differential equation is a type of first-order differential equation that has a the following general form.
- $$a(x)y'+b(x)y=c(x)y^n$$
-Where $a(x), b(x), c(x)$ are function of $x$ with $n \in \mathbb{Z}$.
+$$a(x)y'+b(x)y=c(x)y^n$$
+Where $a(x), b(x), c(x)$ are21 function of $x$ with $n \in \mathbb{Z}$.
 
 # Transforming into Standard Form
 To better be able to solve this type of ODE, it is necessary to transform it into its standard form, by dividing the whole equation by $a(x)$ and then using the following substitutions:

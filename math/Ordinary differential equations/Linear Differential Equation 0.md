@@ -25,13 +25,13 @@ Linear differential equations are amenable to solution using a number of methods
 1. **Integration Factor Method**:
    
    This method involves multiplying the equation by an integrating factor, typically denoted as $\mu(x)$, which is obtained as:
-
    $$\mu(x) = e^{\int p(x)dx}$$
-
    Thus, the differential equation transforms into:
 
    $$\mu(x)y' + \mu(x)p(x)y = \mu(x)q(x)$$
-
+   $$\mu(x)y' + \mu(x)p(x)y = \mu(x)q(x)$$
+   We use the fact that $\mu(x)p(x)=\mu'(x)$.
+   $$\mu(x)y' + \mu'(x)y = \mu(x)q(x) \Leftrightarrow \dfrac{d}{dx}[\mu(x)y]$$
    We can then integrate both sides of the equation to find the solution:
 
    $$\int \mu(x)y'dx = \int \mu(x)q(x)dx$$
