@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "63fb88a0c2994cab",
+        "id": "23c48f66b638a6dc",
         "type": "tabs",
         "children": [
           {
-            "id": "eca5845c8800db08",
+            "id": "3b7015c2b150f9ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/Ordinary differential equations/Linear Differential Equation 0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03cc9257b23782d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Math Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efce564f0c26e4b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Derivation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9e8c6bb85b874f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Ordinary differential equations/Linear Differential Equation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "527934d360379843",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/Fundamental theorem of calculus.md",
+                "file": "math/Euler's Number.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Ordinary differential equations/Linear Differential Equation.md",
+                "file": "math/Euler's Number.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/Ordinary differential equations/Linear Differential Equation.md",
+                "file": "math/Euler's Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Ordinary differential equations/Linear Differential Equation.md"
+                "file": "math/Euler's Number.md"
               }
             }
           },
@@ -195,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,36 +158,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9e8c6bb85b874f5",
+  "active": "3b7015c2b150f9ea",
   "lastOpenFiles": [
-    "math/Ordinary differential equations/Linear Differential Equation 0.md",
-    "math/Ordinary differential equations/Linear Differential Equation.md",
-    "math/Ordinary differential equations/Laplace Transform.md",
-    "math/Ordinary differential equations/Ricatti Equation.md",
-    "math/Ordinary differential equations/Boundary Value Problem.md",
-    "math/Dirac Delta Function.md",
-    "math/Ordinary differential equations/Initial Value Problem.md",
-    "math/Ordinary differential equations/Separable Differential Equation.md",
-    "math/Jacobian Matrix.md",
-    "math/Gradient, Curl and Divergence.md",
-    "math/Fundamental theorem of calculus.md",
-    "math/Existence and Uniqueness Theorem.md",
-    "math/Math resources.md",
-    "math/Laplace Equation.md",
-    "math/Step Function.md",
-    "math/Math Types.md",
-    "math/Integration.md",
-    "Bachelor Thesis.md",
-    "how to write papers.md",
-    "Semantic Relations.md",
-    "TUHH.md",
-    "math/Euler's Number.md",
-    "math/Derivation.md",
-    "math/Intervals.md",
     "math/Identities.md",
     "math/Ordinary differential equations/Bernoulli differential Equation.md",
+    "math/Ordinary differential equations/Differential Equation.md",
+    "math/Ordinary differential equations/Integrating Factor.md",
+    "math/Integration.md",
+    "math/Ordinary differential equations/Ricatti Equation.md",
+    "math/Ordinary differential equations/Separable Differential Equation.md",
+    "math/Ordinary differential equations/Linear Differential Equation.md",
+    "math/Ordinary differential equations/Characteristic Equation.md",
+    "math/Ordinary differential equations/Wronskian.md",
+    "math/Ordinary differential equations/Linear Differential Equation 0.md",
+    "how to write papers.md",
+    "math/Derivation.md",
+    "math/Math resources.md",
+    "math/Intervals.md",
+    "math/Euler's Number.md",
+    "math/Existence and Uniqueness Theorem.md",
+    "math/Math Types.md",
+    "math/Dirac Delta Function.md",
+    "math/Step Function.md",
+    "Ordinary differential equations/Riccati equation.md",
+    "Bachelor Thesis.md",
+    "Semantic Relations.md",
+    "TUHH.md",
     "bachelor_thesis",
     "math",
+    "math/Fundamental theorem of calculus.md",
+    "separable differential equation.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "math/Ordinary differential equations"
