@@ -32,7 +32,7 @@ $$M(x, y) dx + N(x,y)dy=0$$
 ## Integrating Factor Method
 The integrating factor method is the main solving method.
 
-It is based on multiplying the whole equation with a so called integrating factor, usually denoted like this, with $p(x)$ being from the standard form:
+It is based on multiplying the whole equation with a so called integrating factor, usually denoted like this, given $y'+p(x)y=q(x)$:
 $$\mu(x)=e^{\int p(x) dx}$$
 The result is this:
 $$y=\dfrac{1}{\mu(x)}\int\mu(x)q(x)dx$$
