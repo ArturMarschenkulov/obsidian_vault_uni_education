@@ -1,4 +1,4 @@
-
+ 
 
 # Log and e
 $a^n=c \Leftrightarrow \log_n(c)=a$
