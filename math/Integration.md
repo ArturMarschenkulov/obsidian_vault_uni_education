@@ -33,3 +33,21 @@ $\cos \to \sin$
 $\sin \to -\cos$
 $\tan \to -\ln|\cos(x)|$
 
+
+# Integration by Parts
+
+- $\int uv dx = u \int v dx - \int u' (\int v dx) dx$
+- $\int uv dx = u V - \int u' V dx$
+
+## ILATE
+
+The ILATE is a mnemonic to help which term should be $u$ or $v$. The reason is that that $u$ should have
+
+
+|     |                       |                           |
+| --- | --------------------- | ------------------------- |
+| I   | Inverse trigonometric | $\sin^{-1}x$, $cos^{-1}x$ |
+| L   | logarithmic           | $\log{x}$, $\ln{x}$       |
+| A   | algebraic             | $x^2$, $\sqrt{x}$         |
+| T   | trigonometric         | $\sin x$, $\cos x$        |
+| E   | exponential           | $e^x$, $2^x$              |

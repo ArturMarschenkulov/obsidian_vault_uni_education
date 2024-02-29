@@ -1,4 +1,4 @@
-A Bernoulli differential equation is a type of first-order differential equation tshat has a the following general form.
+  A Bernoulli differential equation is a type of first-order differential equation tshat has a the following general form.
 $$a(x)y'+b(x)y=c(x)y^n$$
 Where $a(x), b(x), c(x)$ are function of $x$ with $n \in \mathbb{Z}$.
 
@@ -25,23 +25,49 @@ If $n=1$, the equation remains linear and becomes also separable:
 * $y'=q(x)y-p(x)y=(q(x)-p(x))y$
 * $y^{-1}y'=q(x)-p(x)$
 
-# Transformation to Linear Differential Equation
+
+# How to solve it
+First of, when you detected a Bernoulli differential equation, put it into its standard form, $y'+p(x)y=q(x)y^n$.
+
+To get the solution, use the below equation: 
+$$y=\sqrt[n-1]{\frac{\mu_v}{(1-n)\int \mu_v q(x)dx}}$$
+with:
+$$\mu_v=e^{(1-n)\int p(x)dx}$$
+Note, that $\mu_v$ is not the regular [[Integrating Factor]], but a special one tailored for the Bernoulli equation. The derivation of that you can see [[Bernoulli differential Equation#Derivation|here]].
+
+It means that, after calculating the usually simple integral $\int p(x) dx$, the main task is to calculate $\int \mu_v q(x)dx$.
+
+## Derivation
 A Bernoulli differential equation can be transformed to a linear differential equation.
 
 Firstly, one reshuffles the standard form, $y'+p(x)y=q(x)y^n$, into this:
 * $y^{-n}y'+p(x)y^{1-n} = q(x)$
 
 Then, one does substitution:
-* $v=y^{1-n}$
-* $v'=(1-n)y^{-n}y'$
+* $v=y^{1-n}=\frac{1}{y^{n-1}}$
+To be useful we transform it to this:
 * $y^{-n}y'=(1-n)^{-1}v'$
-
-
-No we substitute:
+	* through: $v' = (1-n)y^{-n}y'$
+Now we substitute:
 * $(1-n)^{-1}v'+p(x)v=q(x)$
+And if we reshuffle we get it into the standard form:
 * $v'+(1-n)p(x)v=(1-n)q(x)$
-* $v'= -(1-n)p(x)v + (1-n)q(x)=(1-n)(q(x)-p(x)v)$
-This is a linear equation in its standard form, $v'+p_v(x)v=q_v(x)$, with $p_v(x)=(1-n)p(x)$ and $q_v(x)=(1-n)q(x)$. This means we can use the integrating factor.
-$$v=\mu^{-1}\int \mu q_v(x)dx, \mu=e^{\int p_v(x)dx}$$
-$$v=e^{-\int p_v(x)dx}\int e^{p_v(x)dx} q_v(x)dx$$
-$$v=(1-n)e^{(n-1) \int p(x)dx}\int e^{(1-n)\int p(x)dx} q(x)dx$$
+We define new variables:
+- $p_v(x)=(1-n)p(x)=-(n-1)p(x)$
+- $q_v(x)=(1-n)q(x)=-(n-1)q(x)$:
+- $v'+p_v(x)v=q_v(x)$
+
+This means we can use the [[Integrating Factor]]:
+
+$$\mu=e^{\int p_v(x)dx}=e^{(1-n)\int p(x)dx}$$
+$$v=\frac{1}{y^{n-1}}=\mu^{-1}\int \mu q_v(x)dx$$
+$y=\sqrt[n-1]{\frac{1}{\mu^{-1}\int \mu q_v(x)dx}}$
+
+$$y=\sqrt[n-1]{\frac{1}{\mu^{-1}\int \mu q_v(x)dx}}=\sqrt[n-1]{\frac{\mu}{(1-n)\int \mu q(x)dx}}$$
+
+
+
+# Links
+- https://www.cfm.brown.edu/people/dobrush/am33/Mathematica/ch2/bernoulli.html
+- https://tutorial.math.lamar.edu/classes/de/bernoulli.aspx
+- https://www.youtube.com/watch?v=BoI_ej-T0V4

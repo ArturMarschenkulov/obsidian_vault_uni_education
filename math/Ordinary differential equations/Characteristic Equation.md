@@ -4,6 +4,16 @@ $ay''+by'+cy=0$ becomes $ar^2+br+c=0$.
 
 Then the next step is to get the roots and depending on how the roots look like it determines how the solution looks like.
 
+The pq or abc formula is very important in this one:
+- $-\frac{p}{2} \pm \sqrt{(\frac{p}{2})^2-q}$
+- $\frac{-b \pm \sqrt{b^2-4ac}}{2a}$
+
+
+In case of a 2 order polynomial, use this to decide what type it is.
+- $b^2 > 4ac$ => real and distinct roots
+- $b^2 < 4ac$ => complex roots
+- $b^2 = 4ac$ => repeated roots
+
 # Roots
 ## Distinct real roots
 e.g.:
@@ -14,4 +24,4 @@ e.g.:
 
 ## Complex roots
 e.g.:
-- $y(t)=c_1e^{at}\cos(bt)+c_2e^{at}\sin(bt)$.
+- $y(t)=e^{at}(c_1\cos(bt)+c_2\sin(bt))$.

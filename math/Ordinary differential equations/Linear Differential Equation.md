@@ -1,4 +1,4 @@
-A linear differential equation is a type of first-order differential equation that can be expressed in this general form:
+1A linear differential equation is a type of first-order differential equation that can be expressed in this general form:
 $$a(x)y'+b(x)y=c(x)$$
 Let the coefficients $a(x), b(x), c(x)$ be functions of $x$ which are continuous on an interval $I$ and $a(x) \neq 0$.
 
@@ -31,31 +31,13 @@ Basically when $q(x)$ and $p(x)$ are constants, usually then written as $q$ and 
 
 ## Exactness
 $$M(x, y) dx + N(x,y)dy=0$$
+
+- https://math24.net/exact-differential-equations.html
 # Methods
 Below are various methods of solving linear differential equations. 
 
 ## Integrating Factor Method
-The integrating factor method is the main solving method.
-
-It is based on multiplying the whole equation with a so called integrating factor, usually denoted like this, given $y'+p(x)y=q(x)$:
-$$\mu(x)=e^{\int p(x) dx}$$
-The result is this:
-$$y=\dfrac{1}{\mu(x)}\int\mu(x)q(x)dx$$
-If the ODE is homogeneous, that is $q(x)=0$, then it even simplifies to this:
-$$y=c_1\dfrac{1}{\mu(x)}=c_1\mu(x)^{-1}=c_1e^{-\int p(x)dx}$$
-### Derivation
-This is not needed to solve equations, but still good to know.
-
-One multiplies the whole equation with that, so that the result is this:
-$$\mu(x) y' + \mu(x) p(x) y = \mu(x) q(x)$$
-We use the fact that $\mu(x)p(x)=\mu'(x)$, or rather that is the whole point of $\mu(x)$, to get this:
-$$\mu(x) y' + \mu'(x) y = \mu(x) q(x)$$
-This allows us to do the differentiation rule called factor rule, in reverse.
-$$\dfrac{d}{dx}[\mu(x)y]=\mu(x)q(x)$$
-We then integrate both sides:
-$$\int\dfrac{d}{dx}[\mu(x)y]dx=\mu(x)y=\int\mu(x)q(x)dx$$
-Thus ultimately resulting into (this is actually one one should use, everything before is just the derivation):
-$$y=\dfrac{1}{\mu(x)}\int\mu(x)q(x)dx$$
+Read about it [[Integrating Factor |here ]].
 
 ## Separation of Variables
 If the linear ODE has appropriate coefficients $q(x)$ and $p(x)$, then it is a [[Separable Differential Equation|separable one]].
@@ -87,24 +69,11 @@ If $a=1$, then:
 $$y = e^{\int f(x) dx} - c$$
 
 ## Method of Undetermined Coefficients
-Usually used on ODEs with the form $y''+ py'+qy=q(x)$, where $q(x)$ is a relatively simple function and $p$ and $q$ are constants/coefficients.
-
-It is based on the fact that $y=y_p+y_h$.
-
-The first step is to get $y_h$. This usually done by the [[Characteristic Equation]], $ar²+br+c$, where $a b c$ match the coefficients of the differential equation in question. Then one find the roots (or root if the coefficient before $y''$ is $0$). Something like that is the result $c_1e^{rx}+c_2e^{rx}$.
-
-The second step is $y_p$. This is based on first analyzing how $q(x)$ looks like.
-
-| $q(x)$ | the guess for $y_h$ |
-| ---- | ---- |
-| $ke^{ax}$ | $Ae^{a x}$ |
-| $kx^n,  n= 0, 1, 2, ...$ | $\sum_{i=0}^nK_i x^i$, $K_i= A, B, C, ...$ |
-| $k \cos(ax)$ or $k \sin(ax)$ | $K \cos(ax) + M sin(ax)$ |
-| $ke^{ax} \cos(bx)$ or $ke^{ax} \sin(bx)$ | $e^{ax}(K \cos(bx)+M \sin(bx))$ |
-|  |  |
-
-
-
+See [[Linear Differential Equation|here]].
 
 ## Variation of Parameters
 Used for non-homogeneous linear ODEs. This one is used when [[Linear Differential Equation#Methods#Method of Undetermined Coefficients|method of undetermined coefficients]] doesn't work, be it because it is not autonomous or because the non-homogenous part is more complex.
+
+Find the homogeneous solution $y_h$.
+
+- https://www.youtube.com/watch?v=3mKyKo58_LI
