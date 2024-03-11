@@ -42,3 +42,7 @@
 * [Emathhelp](https://www.emathhelp.net/)
 * [mathdf](https://mathdf.com/)
 * [Math24](https://math24.pro/differential_equation)
+
+## Online books
+- https://books.physics.oregonstate.edu/
+	- https://books.physics.oregonstate.edu/LinAlg/book-1.html

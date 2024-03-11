@@ -1,4 +1,4 @@
-  A Bernoulli differential equation is a type of first-order differential equation tshat has a the following general form.
+   A Bernoulli differential equation is a type of first-order differential equation that has a the following general form.
 $$a(x)y'+b(x)y=c(x)y^n$$
 Where $a(x), b(x), c(x)$ are function of $x$ with $n \in \mathbb{Z}$.
 
@@ -15,7 +15,7 @@ This results into the following standard form:
 # Special case n=0 and n=1
 Usually, only equations with $n \notin \{0, 1\}$ are regarded as Bernoulli differential equations. The reason is that are 
 
-The reason being that those are regular linear differential equations and can be solved using the methods for linear differential equations. If $n = 1$, it is even a [[Separable Differential Equation|separable differential equation]].
+The reason being that those are regular linear differential equations and can be solved using the methods for linear differential equations. If $n = 1$, it is even a separable differential equation (see [[Separable Differential Equation]]).
 
 If $n=0$, the equation simplifies to a linear ODE:
 * $y'+p(x)y=q(x)y^0 = q(x)$
@@ -30,13 +30,15 @@ If $n=1$, the equation remains linear and becomes also separable:
 First of, when you detected a Bernoulli differential equation, put it into its standard form, $y'+p(x)y=q(x)y^n$.
 
 To get the solution, use the below equation: 
-$$y=\sqrt[n-1]{\frac{\mu_v}{(1-n)\int \mu_v q(x)dx}}$$
+
+ 
+$$y=\sqrt[1-n]{\mu_v^{-1}(1-n)\int \mu_v q(x)dx}$$
 with:
-$$\mu_v=e^{(1-n)\int p(x)dx}$$
-Note, that $\mu_v$ is not the regular [[Integrating Factor]], but a special one tailored for the Bernoulli equation. The derivation of that you can see [[Bernoulli differential Equation#Derivation|here]].
+$$\mu_b=e^{(1-n)\int p(x)dx}$$
+Note, that $\mu_b$ is not the regular integrating factor ([[Integrating Factor]]), but a special one tailored for the Bernoulli equation. In essence one multiplies the normal ones with the "Bernoulli factor" $1-n$. The derivation of that you can see here: [[Bernoulli differential Equation#Derivation]].
 
 It means that, after calculating the usually simple integral $\int p(x) dx$, the main task is to calculate $\int \mu_v q(x)dx$.
-
+ 
 ## Derivation
 A Bernoulli differential equation can be transformed to a linear differential equation.
 
@@ -60,7 +62,10 @@ We define new variables:
 This means we can use the [[Integrating Factor]]:
 
 $$\mu=e^{\int p_v(x)dx}=e^{(1-n)\int p(x)dx}$$
-$$v=\frac{1}{y^{n-1}}=\mu^{-1}\int \mu q_v(x)dx$$
+$$v=y^{1-n}=\mu^{-1}\int \mu q_v(x)dx$$
+$$v=y^{1-n}=\mu^{-1}\int \mu q_v(x)dx$$
+$$y=(\mu^{-1}\int \mu q_v(x)dx)^\dfrac{1}{1-n}=\sqrt[1-n]{\mu^{-1}\int \mu q_v(x)dx}$$
+$$y=\sqrt[1-n]{\mu^{-1}(1-n)\int \mu q(x)dx}$$
 $y=\sqrt[n-1]{\frac{1}{\mu^{-1}\int \mu q_v(x)dx}}$
 
 $$y=\sqrt[n-1]{\frac{1}{\mu^{-1}\int \mu q_v(x)dx}}=\sqrt[n-1]{\frac{\mu}{(1-n)\int \mu q(x)dx}}$$

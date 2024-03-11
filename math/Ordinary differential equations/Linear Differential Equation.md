@@ -37,10 +37,10 @@ $$M(x, y) dx + N(x,y)dy=0$$
 Below are various methods of solving linear differential equations. 
 
 ## Integrating Factor Method
-Read about it [[Integrating Factor |here ]].
+Read about it here: [[Integrating Factor]].
 
 ## Separation of Variables
-If the linear ODE has appropriate coefficients $q(x)$ and $p(x)$, then it is a [[Separable Differential Equation|separable one]].
+If the linear ODE has appropriate coefficients $q(x)$ and $p(x)$, then it is a separable one (see: [[Separable Differential Equation]]).
 
 The simple cases are:
 + $q(x)=0$
@@ -69,10 +69,10 @@ If $a=1$, then:
 $$y = e^{\int f(x) dx} - c$$
 
 ## Method of Undetermined Coefficients
-See [[Linear Differential Equation|here]].
+See here [[Method of Undetermined Coefficients]].
 
 ## Variation of Parameters
-Used for non-homogeneous linear ODEs. This one is used when [[Linear Differential Equation#Methods#Method of Undetermined Coefficients|method of undetermined coefficients]] doesn't work, be it because it is not autonomous or because the non-homogenous part is more complex.
+Used for non-homogeneous linear ODEs. This one is used when method of undetermined coefficients [[Method of Undetermined Coefficients]] doesn't work, be it because it is not autonomous or because the non-homogenous part is more complex.
 
 Find the homogeneous solution $y_h$.
 

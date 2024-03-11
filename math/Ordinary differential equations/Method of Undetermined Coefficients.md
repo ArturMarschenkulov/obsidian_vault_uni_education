@@ -6,7 +6,7 @@ To get $y_h$ one uses some method to get that. Usually [[Characteristic Equation
 
 The second step is $y_p$. This is based on first analyzing how $g(x)$ looks like.
 
-| $g(x)$                                   | the guess for $y_h$                        |
+| $g(x)$                                   | the guess for $y_p$                        |
 | ---------------------------------------- | ------------------------------------------ |
 | $ke^{ax}$                                | $Ae^{a x}$                                 |
 | $kx^n,  n= 0, 1, 2, ...$                 | $\sum_{i=0}^nK_i x^i$, $K_i= A, B, C, ...$ |
