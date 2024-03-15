@@ -1,4 +1,4 @@
-$\DeclareMathOperator{\rect}{rect}$
+  $\DeclareMathOperator{\rect}{rect}$
 
 # List
 ## Step

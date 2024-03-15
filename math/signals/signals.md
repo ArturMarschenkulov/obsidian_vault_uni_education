@@ -29,5 +29,10 @@ A signal is conjugate odd, if the real part is odd and the imaginary part is eve
 - $x(t)=-x^*(-t)$
 - $x_R(t)+jx_I(t)=-x_R(-t)+jx_I(-t)$
 
+
+- $x_R(t)=\frac{x(t)+x^*(t)}{2}$
+- $x_I(t)=\frac{x(t)-x^*(t)}{2j}$
+- $x_e(t)=\frac{x(t)+x(-t)}{2}$
+- $x_o(t)=\frac{x(t)-x(-t)}{2}$
 ## Scaling
 Scaling is done by multiplying the input with $a$, like this $x(at)$.

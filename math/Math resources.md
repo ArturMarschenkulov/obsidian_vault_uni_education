@@ -24,6 +24,7 @@
 * [Wolfram's ScienceWorld](https://scienceworld.wolfram.com/)
 * [Wolfram's MathWorld](https://mathworld.wolfram.com)
 * [LibreTexts](https://math.libretexts.org/)
+	- https://math.libretexts.org/Bookshelves
 * [MathOnline Wikidot](http://mathonline.wikidot.com/)
 
 * [Paul's Online Notes](https://tutorial.math.lamar.edu/)
