@@ -1,0 +1,1 @@
+For example [[Bernoulli Differential Equation]] and [[Ricatti Equation]]. Those are special because they can be transformed into a [[Linear Differential Equation | linear one]].

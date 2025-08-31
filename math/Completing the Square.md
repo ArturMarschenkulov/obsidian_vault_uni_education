@@ -1,0 +1,1 @@
+Given $ax^2+bx+c=0$ it turns into $a(x+d)^2+e$ with $d=\frac{b}{2a}$ and $e=c-\frac{b^2}{4a}$.

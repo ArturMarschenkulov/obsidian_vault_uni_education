@@ -1,6 +1,4 @@
-
-
-
+s
 # Gradient
 The gradient is a unary function, which takes in a multivariable function, and returns a vector of all partial derivatives of said function. That means that if the function has 2 variables, it returns a vector of 2 partial derivatives, and so on.
 
@@ -10,18 +8,23 @@ It represents the fastest increase of a scalar function.
 
 - $\nabla : scalar \rightarrow vector$
 
-- $\nabla f = (\frac{\delta f}{\delta x},\frac{\delta f}{\delta y})$
-- $\nabla f = (\frac{\delta f}{\delta x},\frac{\delta f}{\delta y}, \frac{\delta f}{\delta z} )$
+- $\nabla f = \mymatrixp{f_x\\f_y}$
+- $\nabla f = \mymatrixp{f_x\\f_y\\f_z}$
 
 # Curl
 
-In essence.
-- $\nabla \times V = \frac{\delta f_y}{\delta x} - \frac{\delta f_x}{\delta y}$
+In essence. Let $F = (F_1, F_2, F_3)$, while $F_n$ being itself vectors $F_n = (F_{n,x},F_{n,y},F_{n,z})$.
+- $\nabla \times F = F_{2,x} - F_{1,y}$
 
-- $\nabla \times V = (\frac{\delta f_z}{\delta y} - \frac{\delta f_y}{\delta z}, \frac{\delta f_x}{\delta z} - \frac{\delta f_z}{\delta x}, \frac{\delta f_y}{\delta x} - \frac{\delta f_x}{\delta y})$
+- $\nabla \times F = \mymatrixp{F_{3,y} - F_{2,z}\\ F_{1, z} - F_{3,x}\\ F_{2,x} - F_{1, y}}$
 
 
 # Divergence
 In essence:
-- $\nabla \cdot V = \frac{\delta f_x}{\delta x} + \frac{\delta f_y}{\delta y}$ or
-- $\nabla \cdot V = \frac{\delta f_x}{\delta x} + \frac{\delta f_y}{\delta y} + \frac{\delta f_z}{\delta z}$
+- $\nabla \cdot V =f_{1,x}+f_{2, y}$ or
+- $\nabla \cdot V =f_{1,x}+f_{2, y}+f_{3, z}$
+
+
+# Relation between them
+$\nabla \cdot \nabla f = \Delta f$
+This is also called the the *Laplacian*. It tells how much quantity is spreading out or diffusing in space.

@@ -1,38 +1,22 @@
-1A linear differential equation is a type of first-order differential equation that can be expressed in this general form:
-$$a(x)y'+b(x)y=c(x)$$
-Let the coefficients $a(x), b(x), c(x)$ be functions of $x$ which are continuous on an interval $I$ and $a(x) \neq 0$.
+If a differential equation can be expressed as 
 
-Or even more general:
-$$\sum_{i=0}^{n}a_i(x)y^{(i)}=b(x)$$
+Let $$\sum_{i=0}^{n} a_i(t)y^{(i)}(t)=b(t)$$, with $n$ being the order. $b(t)$ is called the non-homogeneous term, also called source function.
 
-
+Usually, only first and second order are considered $$a(t)y'+b(t)y=c(t)$$ and $$a(t)y''+b(t)y'+c(t)y=d(t)$$
 For easier solving, it is preferable to transform it into its standard form by performing a few substitutions:
 
->$p(x)=\dfrac{b(x)}{a(x)}$
->$q(x)=\dfrac{c(x)}{a(x)}$
+>$p(t)=\dfrac{b(t)}{a(t)}$
+>$q(t)=\dfrac{c(t)}{a(t)}$
 
 Thus resulting into the following:
-$$y'+p(x)y=q(x)$$
+$$y'+p(t)y=q(t)$$
 
-If $c(x)=0$ and thus also $q(x)=0$, then the differential equation is regarded as homogeneous. If $c(x) \neq 0$, then it is inhomogeneous.
+If $c(t)=0$ and thus also $q(t)=0$, then the differential equation is regarded as homogeneous. If $c(t) \neq 0$, then it is non-homogeneous.
 
-# Types
-## Homogeneity
-Linear ODEs can be divided into homogeneous and non-homogeneous.
 
-A linear ODE is homogeneous, when $q(x)=0$, otherwise it is non-homogeneous.
+In other words if one sees $y^n$, $sin(y)$, $ln(y)$ etc it is not linear.
 
-The solutions to non-homogeneous linear ODEs looks like this:
-$$y=y_h+y_p$$
-$y_h$ is the solution to the linear ODE if one sets $q(x)=0$, while $y_p$ is the particular solution
 
-## Autonomous
-Basically when $q(x)$ and $p(x)$ are constants, usually then written as $q$ and $p$.
-
-## Exactness
-$$M(x, y) dx + N(x,y)dy=0$$
-
-- https://math24.net/exact-differential-equations.html
 # Methods
 Below are various methods of solving linear differential equations. 
 
@@ -40,34 +24,7 @@ Below are various methods of solving linear differential equations.
 Read about it here: [[Integrating Factor]].
 
 ## Separation of Variables
-If the linear ODE has appropriate coefficients $q(x)$ and $p(x)$, then it is a separable one (see: [[Separable Differential Equation]]).
-
-The simple cases are:
-+ $q(x)=0$
-+ $p(x)=0$
-+ $q(x)=kp(x)$ with $k$ being some constant
-
-However to be more exact it should fit the below equation:
-$$f(x)g(y)=q(x)-p(x)y$$
-Note however, that when $q(x)$ the equation is homogeneous. Thus this method is a good one to solve homogenous first order linear ODEs.
-
-The result is that we have an equation which can be written like this:
-$$y'=f(x)g(y)$$
-Once we have that form, we put all $y$ on the left and everything else on the right.
-$$\frac{1}{g(y)}y'=f(x)$$
-Now we integrate both sides:
-$$\int \frac{1}{g(y)}y' dx=\int f(x) dx$$
-However to simplify, there is a neat trick. One can substitute $y'dx$, or rather $\frac{dy}{dx} dx$, with $dy$. As a rough (but wrong) mental model, some simply say the $dx$s cancel out. Thus:
-$$\int \frac{1}{g(y)}dy=\int f(x) dx$$
-
-If $g(y)$ is $g(y)=ay+b$, then:
-$$\frac{ln(a y + c)}{a}=\int f(x) dx$$
-$$ln(ay+c) = a^{-1} \int f(x) dx$$
-$$e^{ln(ay+c)}=ay+c = e^{a^{-1} \int f(x) dx}$$
-$$y = a^{-1}(e^{a^{-1} \int f(x) dx} - c) = \frac{e^{\frac{\int f(x) dx}{a}} - c}{a}$$
-If $a=1$, then:
-$$y = e^{\int f(x) dx} - c$$
-
+[[Method of Separation of Variables]]
 ## Method of Undetermined Coefficients
 See here [[Method of Undetermined Coefficients]].
 

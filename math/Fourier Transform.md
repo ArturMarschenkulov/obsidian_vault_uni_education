@@ -3,6 +3,8 @@ It is a special case of the [[Laplace Transform]].
 
 
 
+
+
 | $f(t)$                | $F(f)$                                       |
 | --------------------- | -------------------------------------------- |
 |                       | $F(f)=\int_{-\infty}^{\infty}f(t)e^{-jft}dt$ |
@@ -20,5 +22,7 @@ It is a special case of the [[Laplace Transform]].
 | $\cos(2\pi f_0t)$     | $\dfrac{1}{2}(\delta(f+f_0)+\delta(f-f_0))$  |
 | $\sin(2\pi f_0t)$     | $\dfrac{j}{2}(\delta(f+f_0)-\delta(f-f_0))$  |
 | $\delta(t)$           | $\frac{1}{jf}+\pi\delta(f)$                  |
+
+[[Complex Exponential Function]]
 # Links
 - https://lpsa.swarthmore.edu/Fourier/Xforms/FXformIntro.html

@@ -1,5 +1,9 @@
 Also known as the unit impulse. First of, it is not a "function" in the general sense, but a distribution and those only make sense if they are under a integral sign (and multiplied by another function???).
 
+> [!definition] **Dirac Delta Function** 
+> The Dirac delta function, denoted as $\delta(t)$, is not a function in the traditional sense but a _distribution_ or _generalized function_ designed for mathematical analysis, primarily in the fields of engineering and physics.
+
+
 The cornerstone of how this function is defined is this. It is not mathematically rigorous, but it gives a gist.
 The most widely used definition is the one below, however it is not mathematically rigorous.
 $$\delta(t)=
@@ -38,9 +42,10 @@ If $t_0=0$, then the above equation simplifies to:
 
 derivative:
 
-integral:
-- $\int^{\infty}_{-\infty}\delta(t)dt=1$
-- $\int^x_{-\infty} \delta(t-t_0) dt=\varepsilon(t-t_0)$
+>[!theorem] integral
+$$\int^{\infty}_{-\infty}\delta(t)dt=1$$
+$$\int^x_{-\infty} \delta(t-t_0) dt=\varepsilon(t-t_0)$$
+
 fourier:
 - $\mathcal{F}\{\delta(t)\}(f) = 1$
 laplace:

@@ -7,26 +7,28 @@
 ## Ramp
 Essentially, [[Step Function]] times a the variable.
 
-- $\rho(t)=t\varepsilon(t)=\max(t, 0)$
-- $\rho(t)=\int_{-\infty}^t\varepsilon(x)dx$
-- $\rho(t)=\varepsilon(t)*\varepsilon(t)$
+> [!definition]
+> It can be defined in several ways:
+> 
+> - $\rho(t)=t\varepsilon(t)=\max(t, 0)$
+> - $\rho(t)=\int_{-\infty}^t\varepsilon(x)dx$
+> - $\rho(t)=\varepsilon(t)*\varepsilon(t)$
 
+> [!note]
+> - power signal
+> - causal
 
-- power signal
-- causal
+> [!note] Derivative
+> $\frac{d}{dt}\rho(t)=\varepsilon(t)$
 
-derivative:
-- $\frac{d}{dt}\rho(t)=\varepsilon(t)$
-integral:
-- $\int \rho(t)$
-Fourier:
-- $\mathcal{F}\{\rho(t)\}(f) = \frac{i\delta'(f)}{4\pi}-\frac{1}{4\pi^2f^2}$
-Laplace:
-- $\mathcal{L}\{\rho(t)\}(s)=\frac{1}{s^2}$
+> [!note] Integral
+> $\int \rho(t)$
 
+> [!note] [[Fourier Transform]]
+> $\mathcal{F}\{\rho(t)\}(f) = \frac{i\delta'(f)}{4\pi}-\frac{1}{4\pi^2f^2}$
 
-
-
+> [!note] [[Laplace Transform]]
+> $\mathcal{L}\{\rho(t)\}(s)=\frac{1}{s^2}$
 ## Sign Function
 $$sgn(t)=\begin{cases}
 -1 &: t < 0\\
@@ -79,7 +81,7 @@ laplace:
 
 ## Triangular
 
-It's the convolution of two rectangular functions
+It's the [[convolution]] of two rectangular functions
 - $\tri(t) = \rect(t) * \rect(t)$
 
 
