@@ -1,4 +1,8 @@
 [
   "obsidian-style-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-admonition",
+  "obsidian-desmos",
+  "obsidian-tikzjax",
+  "tags-routes"
 ]

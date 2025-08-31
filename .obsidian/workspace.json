@@ -4,22 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "23c48f66b638a6dc",
+        "id": "8fd452dac26f45d5",
         "type": "tabs",
         "children": [
           {
-            "id": "3b7015c2b150f9ea",
+            "id": "7258bdb688acedd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/Euler's Number.md",
+                "file": "math/Landau symbols.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Landau symbols"
+            }
+          },
+          {
+            "id": "b5e4a960fe0d73aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/discrete/Graph Theory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Graph Theory"
+            }
+          },
+          {
+            "id": "bf7e4ce8b69ba2e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "temp/Multivariable Calculus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multivariable Calculus"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -38,8 +69,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +82,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "facto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,21 +98,23 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 418.51103591918945
   },
   "right": {
     "id": "292cb35f07e01862",
     "type": "split",
     "children": [
       {
-        "id": "22c0cc1cc2de7989",
+        "id": "fc30d0b3e3c23307",
         "type": "tabs",
         "children": [
           {
@@ -85,27 +123,75 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/Euler's Number.md",
+                "file": "math/Set Theory.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Set Theory"
             }
           },
+          {
+            "id": "376b5abad52f6b8f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "temp/Multivariable Calculus.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0,
+                  "repelStrength": 20,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.4260981521260786,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Multivariable Calculus"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "22c0cc1cc2de7989",
+        "type": "tabs",
+        "children": [
           {
             "id": "bd454203be58b69f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "math/Euler's Number.md",
+                "file": "temp/Multivariable Calculus.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Multivariable Calculus"
             }
           },
           {
@@ -116,7 +202,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +213,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/Euler's Number.md"
-              }
+                "file": "math/Set Theory.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Set Theory"
             }
           },
           {
@@ -138,15 +228,16 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 368.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,41 +246,51 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "tags-routes:Open tags routes": false
     }
   },
-  "active": "3b7015c2b150f9ea",
+  "active": "bf7e4ce8b69ba2e7",
   "lastOpenFiles": [
-    "math/Identities.md",
-    "math/Ordinary differential equations/Bernoulli differential Equation.md",
-    "math/Ordinary differential equations/Differential Equation.md",
-    "math/Ordinary differential equations/Integrating Factor.md",
-    "math/Integration.md",
-    "math/Ordinary differential equations/Ricatti Equation.md",
-    "math/Ordinary differential equations/Separable Differential Equation.md",
-    "math/Ordinary differential equations/Linear Differential Equation.md",
-    "math/Ordinary differential equations/Characteristic Equation.md",
-    "math/Ordinary differential equations/Wronskian.md",
-    "math/Ordinary differential equations/Linear Differential Equation 0.md",
-    "how to write papers.md",
-    "math/Derivation.md",
-    "math/Math resources.md",
-    "math/Intervals.md",
+    "temp/Manifolds.md",
+    "math/Factorial.md",
+    "math/Binary relation.md",
     "math/Euler's Number.md",
-    "math/Existence and Uniqueness Theorem.md",
-    "math/Math Types.md",
-    "math/Dirac Delta Function.md",
-    "math/Step Function.md",
-    "Ordinary differential equations/Riccati equation.md",
-    "Bachelor Thesis.md",
-    "Semantic Relations.md",
-    "TUHH.md",
+    "math/discrete/Graph Theory.md",
+    "math/signals/Elementary signals.md",
+    "math/signals/Step Function.md",
+    "math/signals/Power and Energy.md",
+    "math/Continuity.md",
+    "math/Limit.md",
+    "math/Convergence.md",
+    "math/Landau symbols.md",
+    "math/Harmonic series.md",
+    "math/Laplace Transform.md",
+    "math/Series.md",
+    "math/Ring.md",
+    "math/Set Theory.md",
+    "math/Distribution.md",
+    "math/Discrete Fourier Transform.md",
+    "math/Dot Product.md",
+    "math/Force.md",
+    "math/signals/Dirac Delta Function.md",
+    "math/signals/signals.md",
+    "math/Laplace Equation.md",
+    "math/Dual number.md",
+    "math/Ordinary differential equations/Integrating Factor.md",
+    "resources/Pasted image 20240912115853.png",
+    "TagsRoutes/reports",
+    "TagsRoutes/logs",
+    "TagsRoutes",
+    "resources",
+    "math/abstract algebra",
+    "math/discrete",
+    "temp",
+    "Untitled.canvas",
     "bachelor_thesis",
     "math",
-    "math/Fundamental theorem of calculus.md",
-    "separable differential equation.md",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "math/Ordinary differential equations"
   ]
 }

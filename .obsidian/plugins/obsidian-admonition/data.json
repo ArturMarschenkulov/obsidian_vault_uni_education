@@ -1,0 +1,51 @@
+{
+  "userAdmonitions": {
+    "theorem": {
+      "type": "theorem",
+      "color": "215, 251, 147",
+      "icon": {
+        "name": "balance-scale",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": null,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "definition": {
+      "type": "definition",
+      "color": "194, 20, 20",
+      "icon": {
+        "name": "anchor",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": null,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": true,
+  "version": "10.3.2",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": false,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": true,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.3bc3ad"
+}

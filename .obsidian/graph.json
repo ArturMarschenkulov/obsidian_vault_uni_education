@@ -5,18 +5,33 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"math/Ordinary differential equations\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:math/signals  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": -2.2,
+  "nodeSizeMultiplier": 1.36288659793814,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.317708333333333,
-  "repelStrength": 10,
+  "centerStrength": 0,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 172,
-  "scale": 0.679889878331693,
+  "linkDistance": 30,
+  "scale": 0.3290161968465657,
   "close": false
 }

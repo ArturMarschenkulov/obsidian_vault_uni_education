@@ -1,0 +1,187 @@
+/*
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+If your plugin does not need CSS, delete this file.
+*/
+
+.tags-routes {
+    padding: 0px !important;
+    position: relative;
+}
+.tags-routes .graph-container{
+    overflow: hidden !important;
+}
+
+.tags-routes .tooltip-wrapper {
+    position: absolute;
+    margin-left: 0px;
+    transition: 1s ease-in-out;
+}
+
+.tags-routes .tooltip-wrapper {
+    overflow: hidden;
+    display: flex;
+    background-color: var(--background-secondary);
+    position: absolute !important;
+    left: 0px;
+    bottom: 0px;
+    border-top-right-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags-routes .tooltip-flexbox-container {
+    display: flex;
+    font: var(--text-normal);
+    top: 2.5%;
+    height: 95%;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.tags-routes .hidden {
+    position: relative;
+    margin-left: -34.1em !important;
+    transition: 1s ease-in-out;
+} 
+
+.tags-routes .tooltip-flexbox-container-hide {
+    font: var(--text-normal);
+    font-size: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+}
+
+.tags-routes .tooltip-flexbox {
+    margin: 5px;
+    font-size: 10px;
+}
+
+.tags-routes .tooltip-divider {
+    border: 0.5px solid var(--background-secondary-alt);
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tags-routes .settings-container {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: var(--background-primary);
+    /*   text-align : center;*/
+   /* border-radius: 5px;*/
+}
+.tags-routes .narrow-icon-style {
+    padding: 0px;
+    border-radius: 2px;
+}
+.tags-routes .mod-close {
+    position: absolute;
+    top: var(--size-4-1);
+    inset-inline-end: var(--size-4-2);
+    padding: var(--size-2-2);
+}
+.tags-routes .slider-container {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tags-routes .group-holder {
+    text-align: center;
+}
+.tags-routes .graph-button {
+    top: 15px;
+    right: 10px;
+    z-index: 10;
+    padding: 1px 10px;
+    margin: 4px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    text-align: center;
+}
+.tags-routes .title-bar {
+    display: block;
+    text-align: left;
+    /*border-bottom: 1px dotted;*/
+}
+.tags-routes .inline-settings{
+    display:grid;
+    justify-content: end;
+    grid-auto-flow: column;
+    align-items:end;
+  /*  border-top: 1px solid var(--background-modifier-border);*/
+    text-align: right;
+    
+}
+.tags-routes .tg-settingtab-heading {
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+.tags-routes .group-bar-button {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tags-routes .group-bar-text {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 45px;
+    margin-right: 5px;
+}
+.tags-routes .setting-item-block {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    border-top: 0px;
+}
+.tags-routes .setting-flex-box {
+    display: flex;
+    justify-content: space-around;
+}
+.tags-routes .setting-item-inline {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0px;
+}
+.tags-routes .setting-item-inline .setting-item-info {
+    flex: 0 1 auto;
+    padding-left: 5px;
+    justify-content: space-between;
+}
+.tags-routes .setting-item-name {
+    margin-left: 2px;
+}
+.tags-routes .setting-item-control input[type="range"] {
+    width: 100%;
+    height: 1px;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    /* 确保滑动条的input元素也占据100%宽度 */
+}
+.tags-routes .setting-item-control input[type="text"] {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0px;
+}
+.notice-container {
+  /*  display: none;*/
+}
+.tags-routes .scene-nav-info {
+	display: none;
+	visibility: hidden;
+}
+.tags-routes-settings-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

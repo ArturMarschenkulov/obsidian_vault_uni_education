@@ -1,0 +1,737 @@
+{
+  "saveSpecVer": 10100,
+  "enableSave": true,
+  "enableShow": true,
+  "currentSlotNum": 1,
+  "themeSlotNum": {
+    "dark": 1,
+    "light": 1
+  },
+  "openInCurrentTab": false,
+  "currentTheme": "dark",
+  "customSlot": null,
+  "dark": [
+    {
+      "node_size": 5,
+      "node_repulsion": 10,
+      "link_distance": 1,
+      "link_width": 3,
+      "link_particle_size": 2,
+      "link_particle_number": 3,
+      "toggle_global_map": true,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#000003"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 17,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#000003"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 17,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#000003"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 17,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#000003"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 17,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#000003"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 17,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#000003"
+        }
+      }
+    }
+  ],
+  "light": [
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 5,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#ffffff"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 5,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#ffffff"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 5,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#ffffff"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 5,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#ffffff"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 5,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#ffffff"
+        }
+      }
+    },
+    {
+      "node_size": 5,
+      "node_repulsion": 0,
+      "link_distance": 5,
+      "link_width": 1,
+      "link_particle_size": 2,
+      "link_particle_number": 2,
+      "toggle_global_map": false,
+      "toggle_label_display": false,
+      "colorMap": {
+        "markdown": {
+          "name": "default",
+          "value": "#00ff00"
+        },
+        "attachment": {
+          "name": "default",
+          "value": "#ffff00"
+        },
+        "broken": {
+          "name": "default",
+          "value": "#ff0000"
+        },
+        "excalidraw": {
+          "name": "default",
+          "value": "#00ffff"
+        },
+        "tag": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "nodeHighlightColor": {
+          "name": "default",
+          "value": "#3333ff"
+        },
+        "nodeFocusColor": {
+          "name": "default",
+          "value": "#ff3333"
+        },
+        "linkHighlightColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkNormalColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleColor": {
+          "name": "default",
+          "value": "#ffffff"
+        },
+        "linkParticleHighlightColor": {
+          "name": "default",
+          "value": "#ff00ff"
+        },
+        "backgroundColor": {
+          "name": "default",
+          "value": "#ffffff"
+        }
+      }
+    }
+  ]
+}

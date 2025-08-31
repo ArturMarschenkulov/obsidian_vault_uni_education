@@ -11,5 +11,19 @@
   "ITS@@slrvb-b": false,
   "ITS@@slrvb-g": false,
   "ITS@@s-d": false,
-  "ITS@@select": "pathfinder"
+  "things-style@@quote-color": "#CE1D83",
+  "things-style@@h1-color": "#40E9B7",
+  "things-style@@h2-color": "#E0CE2A",
+  "things-style@@default-font-color": false,
+  "ITS@@drwn": false,
+  "ITS@@accent-color": false,
+  "ITS@@t-d": false,
+  "ITS@@nord": false,
+  "ITS@@select": "pathfinder",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-default",
+  "blue-topaz-theme@@mjx-inline-math-color@@dark": "#FFB454",
+  "blue-topaz-theme@@mjx-math-color@@dark": "#FFB454",
+  "things-style@@code-color-d": "#B80202",
+  "blue-topaz-theme@@background-primary-bg-4-bt@@dark": "#0B1117",
+  "blue-topaz-theme@@background-secondary-bg-4-bt@@dark": "#080C10"
 }
